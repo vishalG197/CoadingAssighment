@@ -1,4 +1,4 @@
-import "./Footer.css";
+import "../css/Footer.css";
 import longsite from "../images/Longsight.svg"
 const Footer = () => {
   return (

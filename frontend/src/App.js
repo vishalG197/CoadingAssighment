@@ -1,11 +1,13 @@
 import logo from './logo.svg';
 import './App.css';
-import GroupComponentSet from './components/GroupComponentSet';
+// import GroupComponentSet from './components/GroupComponentSet';
+import Maincontent from './component/Maincontent';
+
 
 function App() {
   return (
-    <div className="App">
-<GroupComponentSet/>
+    <div >
+<Maincontent/>
     </div>
   );
 }

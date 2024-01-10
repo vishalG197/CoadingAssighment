@@ -68,7 +68,7 @@
   left: 0;
   box-shadow: 0 9px 80px rgba(0, 0, 0, 0.02), 0 2px 17.87px rgba(0, 0, 0, 0.01),
     0 0.6px 5.32px rgba(0, 0, 0, 0.01);
-  width: 643px;
+  width: 550px;
   height: 400.1px;
   flex-direction: column;
 }
@@ -82,7 +82,7 @@
 }
 .solardocument-bold1 {
   left: 0;
-  width: 6.1px;
+  width: 6px;
   height: 9.4px;
   overflow: hidden;
 }
@@ -96,10 +96,67 @@
 }
 .datatable {
   top: 788px;
-  left: 754px;
-  width: 643px;
+  left: 700px;
+  width: 400px;
   height: 540.1px;
   text-align: left;
   font-size: var(--font-size-sm);
   font-family: var(--font-helveticaneue);
+}
+/* Add these styles to your CSS file */
+.span-up {
+  color: red; /* Change to your preferred color for positive change */
+}
+
+.span-down {
+  color: green; /* Change to your preferred color for negative change */
+}
+.datatable {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Arial', sans-serif;
+  width: 600px;
+  margin: 20px;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.table-header,
+.table-row {
+  display: flex;
+}
+
+.table-header {
+  background-color: #f2f2f2;
+  font-weight: bold;
+  color: #333;
+  padding: 10px;
+}
+
+.table-row {
+  border-bottom: 1px solid #ccc;
+}
+
+.table-row:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.table-row > div {
+  padding: 10px;
+  flex: 1;
+  text-align: center;
+}
+
+.supplier {
+  text-align: left;
+}
+
+.arrow-up {
+  color: red;
+  margin-left: 5px;
+}
+
+.arrow-down {
+  color: green;
+  margin-left: 5px;
 }

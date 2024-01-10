@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "../css/Navbar.css";
 import group from "../images/group-625873.svg";
 import fedropdown from "../images/fedropdown.svg";
 import notification from "../images/notification.svg";

@@ -1,22 +1,25 @@
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
+
 import '../../css/PieChart.css';
-import ChartJS from 'chart.js/auto';
 
-// Extend Arc element
-ChartJS.defaults.elements.arc = ChartJS.defaults.elements.line;
-
-const PieChart = ({ data }) => {
+const PieChart = ({ data, legendToggle }) => {
+  // Extract labels, data, and backgroundColor from the provided data
   const labels = data.map(item => item.Supplier);
   const emissionsData = data.map(item => item.Emissions);
-  const backgroundColors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
+  const backgroundColors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042']; // Add more colors if needed
 
-  const chartData = {
-    labels: labels,
+  // Filter data based on legendToggle
+  const filteredLabels = labels.filter((_, index) => legendToggle[`legend${index + 1}`]);
+  const filteredData = emissionsData.filter((_, index) => legendToggle[`legend${index + 1}`]);
+  const filteredColors = backgroundColors.slice(0, filteredLabels.length);
+
+  const filteredChartData = {
+    labels: filteredLabels,
     datasets: [
       {
-        data: emissionsData,
-        backgroundColor: backgroundColors,
+        data: filteredData,
+        backgroundColor: filteredColors,
       },
     ],
   };
@@ -24,11 +27,9 @@ const PieChart = ({ data }) => {
   const options = {
     responsive: true,
     maintainAspectRatio: false,
-    plugins: {
-      legend: {
-        display: true,
-        position: 'right',
-      },
+    legend: {
+      display: true,
+      position: 'right',
     },
   };
 
@@ -55,7 +56,8 @@ const PieChart = ({ data }) => {
             </div>
           </div>
         </div>
-        <Doughnut data={chartData} options={options} />
+        {/* Use filteredChartData for the Doughnut chart */}
+        <Doughnut data={filteredChartData} options={options} />
       </div>
     </div>
   );

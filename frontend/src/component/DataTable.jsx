@@ -1,4 +1,4 @@
-import "./DataTable.css";
+import "../css/DataTable.css";
 
 const DataTable = () => {
   return (

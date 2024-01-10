@@ -347,10 +347,11 @@
 }
 .lineandbarchart {
   position: absolute;
-  top: 223px;
+  top: 323px;
   left: 238px;
-  width: 1200px;
-  height: 654px;
+  width: 900px;
+  /* border:2px solid red; */
+  height: 650px;
   text-align: left;
   font-size: var(--font-size-sm);
   color: var(--color-gray-700);

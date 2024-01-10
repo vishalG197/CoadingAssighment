@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+@import url("https://fonts.googleapis.com/css2?family=HelveticaNeue:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap");
+body {
+  margin: 0;
+  line-height: normal;
 }
+:root {
+  /* fonts */
+  --font-helveticaneue: HelveticaNeue;
+  --font-poppins: Poppins;
+  --font-inter: Inter;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+  /* font sizes */
+  --font-size-xs: 12px;
+  --font-size-3xs: 10px;
+  --font-size-base: 16px;
+  --font-size-sm: 14px;
+  --font-size-2xs: 11px;
+  --font-size-mini: 15px;
+  --font-size-5xs: 8px;
+  --font-size-27xl: 46px;
+  --font-size-4xs: 9px;
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
+  /* Colors */
+  --color-white: #fff;
+  --color-mediumseagreen-100: #3bb85e;
+  --color-mediumseagreen-200: #02ab6c;
+  --color-mediumseagreen-300: rgba(2, 171, 108, 0.04);
+  --color-mediumseagreen-400: rgba(2, 171, 108, 0.01);
+  --color-mediumseagreen-500: rgba(2, 171, 108, 0.16);
+  --color-mediumseagreen-600: rgba(2, 171, 108, 0.67);
+  --color-mediumseagreen-700: rgba(59, 184, 94, 0.24);
+  --color-gray-100: #fafafa;
+  --color-gray-200: #8b8b8b;
+  --color-gray-300: #2c2c2c;
+  --color-gray-400: #181818;
+  --color-gray-500: rgba(255, 255, 255, 0.84);
+  --color-gray-600: rgba(0, 0, 0, 0.67);
+  --color-gray-700: rgba(0, 0, 0, 0.48);
+  --color-whitesmoke: #ebebeb;
+  --color-firebrick: rgba(171, 2, 2, 0.67);
+  --color-tomato-100: #e03021;
+  --color-tomato-200: rgba(224, 48, 33, 0.24);
+  --color-gold-100: #ffc400;
+  --color-gold-200: rgba(255, 196, 0, 0.24);
+  --color-cornflowerblue: #7c95ea;
+  --color-dimgray: #5d5d5d;
+  --color-black: #000;
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
+  /* Gaps */
+  --gap-3xs: 10px;
+  --gap-11xs: 2px;
+  --gap-xl: 20px;
+  --gap-5xs: 8px;
+  --gap-xs: 12px;
 
-.App-link {
-  color: #61dafb;
-}
+  /* Paddings */
+  --padding-3xs: 10px;
+  --padding-xs: 12px;
+  --padding-5xs: 8px;
+  --padding-base: 16px;
+  --padding-xl: 20px;
+  --padding-7xs: 6px;
+  --padding-9xs: 4px;
+  --padding-4xs: 9px;
+  --padding-smi: 13px;
+  --padding-mini: 15px;
+  --padding-11xs: 2px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-xs: 12px;
+  --br-base: 16px;
+  --br-2xs: 11px;
+  --br-26xl: 45px;
+  --br-3xs: 10px;
+  --br-81xl: 100px;
 }

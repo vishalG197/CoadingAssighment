@@ -1,0 +1,105 @@
+.frame-child9 {
+  align-self: stretch;
+  position: relative;
+  border-right: 1px solid var(--color-whitesmoke);
+  box-sizing: border-box;
+  width: 1px;
+}
+.adani {
+  position: relative;
+  font-weight: 500;
+  background: linear-gradient(rgba(0, 0, 0, 0.84), rgba(0, 0, 0, 0.84)), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.adani-wrapper {
+  flex: 1;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: var(--padding-5xs) var(--padding-base);
+  box-sizing: border-box;
+}
+.span2 {
+  font-size: var(--font-size-base);
+}
+.div6 {
+  position: relative;
+  font-weight: 500;
+  background: linear-gradient(rgba(255, 0, 0, 0.84), rgba(255, 0, 0, 0.84)),
+    #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.line-parent {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.div9 {
+  position: relative;
+  font-weight: 500;
+  background: linear-gradient(#008c58, #008c58), #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.frame-parent4,
+.line-group {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.line-group {
+  align-self: stretch;
+  background-color: var(--color-white);
+  border: 1px solid var(--color-whitesmoke);
+  flex-direction: row;
+  margin-top: -1px;
+}
+.frame-parent4 {
+  position: absolute;
+  top: 140px;
+  left: 0;
+  box-shadow: 0 9px 80px rgba(0, 0, 0, 0.02), 0 2px 17.87px rgba(0, 0, 0, 0.01),
+    0 0.6px 5.32px rgba(0, 0, 0, 0.01);
+  width: 643px;
+  height: 400.1px;
+  flex-direction: column;
+}
+.datatable-child,
+.solardocument-bold1 {
+  position: absolute;
+  top: 0;
+  left: 569.5px;
+  width: 0;
+  height: 34.9px;
+}
+.solardocument-bold1 {
+  left: 0;
+  width: 6.1px;
+  height: 9.4px;
+  overflow: hidden;
+}
+.datatable,
+.solardocument-bold-container {
+  position: absolute;
+  top: 12.3px;
+  left: 480.2px;
+  width: 6.1px;
+  height: 9.4px;
+}
+.datatable {
+  top: 788px;
+  left: 754px;
+  width: 643px;
+  height: 540.1px;
+  text-align: left;
+  font-size: var(--font-size-sm);
+  font-family: var(--font-helveticaneue);
+}

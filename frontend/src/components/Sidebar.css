@@ -1,0 +1,269 @@
+.cropped-peters-surgical-logo-c-icon {
+  position: relative;
+  width: 128px;
+  height: 47px;
+  object-fit: cover;
+}
+.button,
+.button-wrapper {
+  display: flex;
+  align-items: center;
+}
+.button {
+  border-radius: var(--br-26xl);
+  width: 219px;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs) var(--padding-smi)
+    var(--padding-xl);
+  box-sizing: border-box;
+}
+.button-wrapper {
+  background-color: var(--color-gray-400);
+  border-top: 1px solid var(--color-black);
+  border-bottom: 1px solid var(--color-black);
+  flex-direction: column;
+  justify-content: center;
+  padding: var(--padding-mini);
+}
+.data-in {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 18px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.data-in-wrapper {
+  position: relative;
+  width: 157px;
+  height: 18px;
+}
+.button1 {
+  border-radius: var(--br-26xl);
+  width: 219px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs) var(--padding-smi)
+    var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.energy {
+  position: absolute;
+  top: 16px;
+  left: 47px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.fedrop-down-icon1 {
+  position: absolute;
+  top: 13px;
+  left: 98px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.material-symbolsenergy-progra-icon {
+  position: absolute;
+  top: 16px;
+  left: 21px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.button2 {
+  position: relative;
+  border-radius: var(--br-3xs);
+  width: 219px;
+  height: 50px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.mditruck-cargo-container {
+  position: absolute;
+  top: 13.5px;
+  left: 20px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.water-and-effluents {
+  position: absolute;
+  top: 13px;
+  left: 47px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.fedrop-down-icon2,
+.mdiwater-outline-icon {
+  position: absolute;
+  top: 10px;
+  left: 189px;
+  width: 24px;
+  height: 24px;
+  overflow: hidden;
+}
+.mdiwater-outline-icon {
+  left: 17px;
+}
+.button3 {
+  position: relative;
+  border-radius: var(--br-26xl);
+  width: 219px;
+  height: 44px;
+}
+.button-parent {
+  background-color: var(--color-gray-400);
+  border-top: 1px solid var(--color-gray-300);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 249px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) var(--padding-mini) var(--padding-mini);
+  gap: var(--gap-3xs);
+}
+.frame-inner {
+  position: absolute;
+  top: -39px;
+  left: 27px;
+  width: 100px;
+  height: 100px;
+  overflow: hidden;
+}
+.button4 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  border-radius: var(--br-26xl);
+  width: 219px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-3xs) var(--padding-smi)
+    var(--padding-xl);
+  box-sizing: border-box;
+  font-size: var(--font-size-sm);
+  color: var(--color-dimgray);
+}
+.material-symbolsenergy-progra-icon1 {
+  position: relative;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.energy1 {
+  position: relative;
+  line-height: 18px;
+  font-weight: 500;
+}
+.button5 {
+  position: absolute;
+  top: 64px;
+  left: 15px;
+  border-radius: var(--br-3xs);
+  width: 219px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-smi) var(--padding-xl);
+  box-sizing: border-box;
+  gap: var(--gap-3xs);
+}
+.ridelete-bin-6-line-icon {
+  position: absolute;
+  top: 14px;
+  left: 20px;
+  width: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+.waste {
+  top: 13px;
+  left: 46px;
+  line-height: 18px;
+  font-weight: 500;
+}
+.button6,
+.eta,
+.waste {
+  position: absolute;
+}
+.eta {
+  top: 15px;
+  left: 95px;
+  font-size: var(--font-size-xs);
+  font-weight: 500;
+  font-family: var(--font-helveticaneue);
+  color: var(--color-mediumseagreen-200);
+  display: inline-block;
+  width: 81px;
+  height: 11px;
+}
+.button6 {
+  top: 118px;
+  left: 15px;
+  border-radius: var(--br-26xl);
+  width: 219px;
+  height: 44px;
+}
+.button-group {
+  position: relative;
+  background-color: var(--color-gray-400);
+  border-top: 1px solid var(--color-gray-300);
+  border-bottom: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  width: 249px;
+  height: 178px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 63.5px;
+  left: 31px;
+  border-radius: var(--br-2xs);
+  background-color: var(--color-mediumseagreen-200);
+  width: 187px;
+  height: 50px;
+}
+.open-help-centre {
+  position: absolute;
+  top: 78px;
+  left: 64px;
+  line-height: 18px;
+  font-weight: 500;
+  display: inline-block;
+  width: 121px;
+  height: 36px;
+}
+.rectangle-parent {
+  position: relative;
+  width: 249px;
+  height: 177px;
+  text-align: center;
+  font-size: var(--font-size-xs);
+}
+.sidebar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-gray-400);
+  height: 1306px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  text-align: left;
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}

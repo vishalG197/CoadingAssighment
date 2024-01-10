@@ -7,10 +7,21 @@ import ChartJS from 'chart.js/auto';
 ChartJS.defaults.elements.arc = ChartJS.defaults.elements.line;
 
 const PieChart = ({ data }) => {
-  const labels = data.map(item => item.Supplier);
+  const labelsSet = new Set(data.map(item => item.Supplier));
+const labels = Array.from(labelsSet);
   const emissionsData = data.map(item => item.Emissions);
-  const backgroundColors = ['#0088FE', '#00C49F', '#FFBB28', '#FF8042'];
-
+  const backgroundColors = [
+    '#0088FE',
+    '#00C49F',
+    '#FFBB28',
+    '#FF8042',
+    '#4CAF50',
+    '#FF5733',
+    '#9B59B6',
+    '#3498DB',
+    '#E74C3C',
+  ];
+  
   const chartData = {
     labels: labels,
     datasets: [
@@ -23,7 +34,7 @@ const PieChart = ({ data }) => {
 
   const options = {
     responsive: true,
-    maintainAspectRatio: false,
+    maintainAspectRatio: true,
     plugins: {
       legend: {
         display: true,
@@ -34,12 +45,10 @@ const PieChart = ({ data }) => {
 
   return (
     <div className="piechart">
-      <div className="piechart-inner">
-        {/* Additional styling elements if needed */}
+     <div className="piechart-inner">
         <div />
       </div>
       <div className="frame-parent2">
-        {/* Additional styling elements if needed */}
         <div />
         <div />
       </div>
@@ -56,6 +65,7 @@ const PieChart = ({ data }) => {
           </div>
         </div>
         <Doughnut data={chartData} options={options} />
+        
       </div>
     </div>
   );

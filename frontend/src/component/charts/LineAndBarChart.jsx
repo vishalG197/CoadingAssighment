@@ -22,7 +22,7 @@ const LineAndBarChart = ({ data }) => {
         {
           label: 'Emissions (2022)',
           data: barData,
-          backgroundColor: 'rgba(75,192,192,1)',
+          backgroundColor: '#6093fa',
           borderColor: 'rgba(75,192,192,1)',
           borderWidth: 1,
           fill: false,
@@ -31,7 +31,7 @@ const LineAndBarChart = ({ data }) => {
         {
           label: 'R/E (2023)',
           data: lineData,
-          backgroundColor: 'rgba(255,99,132,1)',
+          backgroundColor: '#61c5ab',
           borderColor: 'rgba(255,99,132,1)',
           borderWidth: 1,
           fill: false,
@@ -53,8 +53,7 @@ const LineAndBarChart = ({ data }) => {
         {chartType === 'line' && <Line data={getChartConfig('line')} />}
         {chartType === 'both' && (
           <div>
-            <Bar data={getChartConfig()}
-          options={{ multiType: true }} />
+            <Bar data={getChartConfig()} options={{ multiType: true }} />
           </div>
         )}
       </div>

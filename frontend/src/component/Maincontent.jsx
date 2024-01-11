@@ -371,6 +371,74 @@ const Main = () => {
               </div>
             </div>
           </div>
+          <div className="frame-parent15">
+            <div className="group-parent1">
+              <div className="frame-wrapper15">
+                <div className="top-3-suppliers-contributing-t-group">
+                  <div className="top-3-suppliers1">
+                    Top 3 Suppliers contributing to Category-1
+                  </div>
+                  <div className="frame-wrapper16">
+                    <div />
+                  </div>
+                  <div className="frame-parent16">
+                    <div className="rectangle-parent5">
+                      <div className="frame-child66" />
+                      <div className="energy3">Supplier-1</div>
+                      <div className="div27">64%</div>
+                    </div>
+                    <div className="rectangle-parent5">
+                      <div className="frame-child67" />
+                      <div className="energy3">Supplier-2</div>
+                      <div className="div27">32%</div>
+                    </div>
+                    <div className="rectangle-parent5">
+                      <div className="frame-child68" />
+                      <div className="energy3">Supplier-3</div>
+                      <div className="div29">
+                        <span>15</span>
+                        <span className="span9">{` `}</span>
+                        <span className="span10">%</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className="frame-child69" />
+            </div>
+            <div className="frame-child70" />
+           
+            <div className="group-parent2">
+              <div className="frame-parent18">
+                <div className="line-frame">
+                  <div className="frame-child73" />
+                </div>
+                <div className="material-symbolsarrow-drop-do-container">
+                  <div className="material-symbolsarrow-drop-do3">
+                    <img className="vector-icon13" alt="" src="/vector.svg" />
+                  </div>
+                  <div className="frame-child74" />
+                  <div className="download-frame">
+                    <div className="category-12">Download</div>
+                  </div>
+                </div>
+                <div className="solardocument-bold-frame">
+                  <div className="solardocument-bold2" />
+                </div>
+                <img className="vector-icon14" alt="" src="/vector.svg" />
+              </div>
+              <div className="supplier-wise1">Supplier-wise</div>
+              <div className="material-symbolsarrow-drop-do-parent1">
+                <div className="material-symbolsarrow-drop-do3">
+                  <img className="vector-icon15" alt="" src="/vector.svg" />
+                </div>
+                <div className="frame-child74" />
+                <div className="download-wrapper1">
+                  <div className="category-12">Download</div>
+                </div>
+              </div>
+            </div>
+          </div>
           <DataTable data={data}/>
           <div className="line-parent5">
             <div className="frame-child56" />

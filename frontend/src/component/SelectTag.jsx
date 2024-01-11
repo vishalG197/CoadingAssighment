@@ -18,7 +18,12 @@ const SelectTag = ({ onDateFilterChange }) => {
       <div className="show-tline-mar23-apr23-parent">
         <div className="show-tline-mar23-container">
           <span>{`Show Tline: `}</span>
-          <select className="date-range-select" value={selectedDateRange} onChange={handleDateRangeChange}>
+          <select
+            className="date-range-select"
+            value={selectedDateRange}
+            onChange={handleDateRangeChange}
+            style={{ backgroundColor: '#34D399' }}
+          >
             {dateRanges.map((range, index) => (
               <option key={index} value={range}>
                 {range}

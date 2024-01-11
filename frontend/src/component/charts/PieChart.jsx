@@ -1,15 +1,53 @@
 import React from 'react';
 import { Doughnut } from 'react-chartjs-2';
 import '../../css/PieChart.css';
-import ChartJS from 'chart.js/auto';
+// import ChartJS from 'chart.js/auto';
+import { ArcElement } from "chart.js";
+import {
+    Chart as ChartJS,
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+    BarElement
+  } from 'chart.js'
+  
+  ChartJS.register(
+    CategoryScale,
+    LinearScale,
+    PointElement,
+    LineElement,
+    Title,
+    Tooltip,
+    Legend,
+    BarElement
+  )
 
-// Extend Arc element
-ChartJS.defaults.elements.arc = ChartJS.defaults.elements.line;
+ChartJS.register(ArcElement);
 
 const PieChart = ({ data }) => {
-  const labelsSet = new Set(data.map(item => item.Supplier));
-const labels = Array.from(labelsSet);
-  const emissionsData = data.map(item => item.Emissions);
+  // Create a Map to store total emissions for each supplier
+  const emissionsMap = new Map();
+
+  // Calculate total emissions for each supplier
+  data.forEach(item => {
+    const supplier = item.Supplier;
+    const emissions = item.Emissions;
+
+    if (emissionsMap.has(supplier)) {
+      emissionsMap.set(supplier, emissionsMap.get(supplier) + emissions);
+    } else {
+      emissionsMap.set(supplier, emissions);
+    }
+  });
+
+  // Extract labels and total emissions from the Map
+  const labels = Array.from(emissionsMap.keys());
+  const emissionsData = Array.from(emissionsMap.values());
+
   const backgroundColors = [
     '#0088FE',
     '#00C49F',
